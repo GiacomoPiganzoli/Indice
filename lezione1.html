@@ -9,7 +9,6 @@
 
     .elementolista{
        margin: 1em;
-       margin-left: 40%;
        padding: 0.5em;
        border: solid 2px #661CB0;
        height: auto;
@@ -19,12 +18,12 @@
        font-size: 1.5em;
        color:#661CB0;
        text-decoration: none;
+       float: left;
 
     }
 
     .elementolista:hover{
        margin: 1em;
-       margin-left: 40%;
        padding: 0.5em;
        background-color: #661CB0;
        height: auto;
@@ -44,7 +43,7 @@
     .indietro{
         color:#661CB0;
         font-family:'Courier New', Courier, monospace;
-        font-size: 1em;
+        font-size: 1.3em;
     }
 
     .indietro:hover{
@@ -54,7 +53,13 @@
     .linee{
         border: solid 1px #661CB0;
         width: 22%;
-        margin-left: 8em;
+        margin-left: 10%;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        float: left;
+        clear:both;
+        position: relative;
+        top: 1.5em;
     }
  </style>
 </head>
@@ -62,11 +67,11 @@
 <body>
    <a href="index.html" class="indietro">Torna all'indice</a>
     <h1>LEZIONE 1</h1>
+    <div class="linee"></div>
     <a href="argomento1.html"><div class="elementolista">Argomento 1</div></a>
+    <div class="linee"></div>
     <a href="argomento2.html"><div class="elementolista">Argomento 2</div></a>
+    <div class="linee"></div>
     <a href="argomento3.html"><div class="elementolista">Argomento 3</div></a>
-    <div class="linee" style="position:relative; bottom: 13em"></div>
-    <div class="linee" style="position:relative; bottom: 8.5em"></div>
-    <div class="linee" style="position:relative; bottom: 3.6em"></div>
-    <div class="linee" style="width: 15.6em; position:relative; bottom: 11.6em; right: 7.9em; rotate: 90deg;"></div>
+    <div class="linee" style="width: 321px; rotate: 90deg; right: 10em; top: -15em"></div>
 </body>
